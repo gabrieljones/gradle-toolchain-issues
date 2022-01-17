@@ -31,7 +31,7 @@ jobs:
         run: ./gradlew clean compileJava --console=plain --info
       - name: sha1sum
         continue-on-error: true
-        run: sha1sum /home/runner/.gradle/jdks/adoptopenjdk-17-x64-linux.tar.gz
+        run: sha1sum /home/runner/.gradle/jdks/*
       - name: md5sum
         continue-on-error: true
-        run: md5sum /home/runner/.gradle/jdks/adoptopenjdk-17-x64-linux.tar.gz
+        run: md5sum /home/runner/.gradle/jdks/*
