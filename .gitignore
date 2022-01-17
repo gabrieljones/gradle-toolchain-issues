@@ -6,3 +6,4 @@ build
 
 # Ignore private Gradle User Home directory
 HOME
+/.idea/
